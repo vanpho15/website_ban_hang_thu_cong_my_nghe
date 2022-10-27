@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.login{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(180deg, rgb(99, 184, 255), rgb(193 205 193));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.login-container{
+    background-color: white;
+    width: 600px;
+    max-width: calc(100% - 3.55%);
+    min-height: 300px; 
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.login-header{
+    font-size: 30px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(205 133 63);
+    padding: 30px 0;
+    color: white;
+    letter-spacing: 4px;
+}
+.login .logo-img{
+    width: 600px;
+    max-width: calc(100% - 3.55%);
+    min-height: 300px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login .logo-img img{
+    width: 350px;
+    
+}
+.login-body{
+    padding: 0 16px;
+}
+.login .user-box input {
+    width: 100%;
+    padding: 10px 0 ;
+    margin: 10px 10px 10px 0 ;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid rgb(98, 90, 90);
+  outline: none;
+}
+.login .login-btn{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.login .login-btn #btn_singin{
+    margin-right: 20px;
+    padding: 8px 10px;
+    background-color:rgb(205 133 63);
+}
+.login .login-btn #btn_singup{
+    margin-left: 20px;
+    padding: 8px 10px;
+    background-color:rgb(205 133 63);
+    
+}
+  .login button:hover {
+      background-color: rgb(99, 184, 255);
+      color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgb(99, 184, 255),
+                  0 0 25px rgb(99, 184, 255),
+                  0 0 50px rgb(99, 184, 255),
+                  0 0 100px rgb(99, 184, 255);
+    }
+  .btn-social a{
+    text-decoration: none;
+  }
+  .btn-social{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+  }
+  .btn-facebook, .btn-google{
+    border: 1px solid black;
+    background: rgb(100,149,237);
+    color: white;
+    padding: 8px 10px;
+    border-radius: 8px
+  }
+  .btn-facebook i, .btn-google i{
+    padding-right: 10px;
+  }
+  
+  
+  
+  

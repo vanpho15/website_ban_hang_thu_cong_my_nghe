@@ -1,0 +1,57 @@
+*{
+    padding: 0%;
+    margin:0% ;
+    box-sizing: border-box;
+
+}
+.body_contact{
+    padding: 20px 30px;
+    font-size: 15px;
+}
+.contact__self h3,.contact__regist h3{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.contact__self p{
+    text-align: justify;
+}
+.contact__self-list li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+.contact__self-list li a{
+    color: black;
+}
+.contact__regist form input{
+	margin: 1rem 0;
+	padding: 0.8rem 1rem;
+	border-radius: 0.2rem;
+	outline: none;
+	font-size: 1.4rem;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+.contact__regist form textarea{
+	width: 100%;
+	padding: 0.6rem 1.4rem;
+	font-size: 1.4rem;
+	height: 10rem;
+	outline: none;
+	border-radius: .2rem;
+	margin-top: 1rem;
+}
+.contact__regist form button{
+	font-size: 1.4rem;
+	
+	padding: 0.6rem 1.4rem;
+	outline: none;
+	color: var(--white-color);
+	border-radius: 0.2rem;
+	border: none;
+	cursor: pointer;
+    background-color: rgb(203, 151, 84);
+	margin-top: 1rem;
+}
+.contact__regist form button:hover{
+	opacity: 0.8;
+}
